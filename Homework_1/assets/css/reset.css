@@ -1,0 +1,8 @@
+body {
+    counter-reset: my-sec-counter;
+}
+
+h2::before {
+    counter-increment: my-sec-counter -1;
+    content: "Section" counter(my-sec-counter);
+}

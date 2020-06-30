@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* This is the base for the webpage */
+
+body {
+    background-color: #d9dcd6;
+}
+/* This is to set the background color of the website (the area behind the body of the html file) */
+
+.header {
+    padding: 30px;
+    margin: auto;
+    border: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding: 0px;
+    margin: auto;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content {
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    Background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* This is the image that you first see when you enter the website */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.content-section {
+    width: 67%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 400px;
+}
+/* this is how the container floating left will be displayed */
+
+.benefits {
+    margin-right: 20px;
+    margin-top:400px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 28%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* This is the background of the floating right section of the website */
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* this is the spacing and color of the font in the benefits container */
+
+.benefit-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This is the control of the images in the benefits section that floats to the right. I added a class in order to modify all the images in this section at the same time. */
+
+.benefit-header {
+    margin-bottom:10px;
+    text-align:center;
+}
+/* This is the control of all the headers in the sidebar floating to the right (benefits section) */
+
+.content-managment {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+    display: inline-block;
+}
+/* I put content-managment in to be able to control the background of the content section in one place. */
+
+.img {
+    max-height: 200px;
+}
+/* This controls all the pictures in the content section */
+
+.content-header {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* This controls all the headers in the content section of the site. */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
